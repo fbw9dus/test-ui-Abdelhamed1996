@@ -19,13 +19,20 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   45/60 Punkten
 #### Punktabzüge für:
-- [_] (10) Elemente passen sich nicht an Fensterbreite an
+- [x] (5) Elemente passen sich nicht an Fensterbreite an
+```diff
+- Der Container für den großen Text wird bei Tablet-Größe zu schmal
+- Unten ist eine Scroll-Leiste
+```
 - [_] (10) Tags nicht geschlossen oder falsch verschachtelt
 - [_] (5) Block-Tag in Inline-Tag
 - [_] (5) Kinder-Tags im Code nicht eingerückt
-- [_] (10) Zweckfremde Tags verwendet
+- [x] (10) Zweckfremde Tags verwendet
+```diff
+- Zu viele inline-Styles. Die kann man genau so einfach in der CSS-Datei definieren
+```
 - [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
 - [_] (5) Falsche Datei-Pfade
 - [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
